@@ -1,0 +1,28 @@
+/*Ukuran Smartphone*/
+
+@media all and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .fotobio {
+        width: 150px;
+        object-fit: contain;
+    }
+    footer {
+        background-color: #af42a1;
+    }
+    h3,
+    b,
+    h2,
+    strong {
+        color: #373882;
+        text-shadow: 2px 2px 7px #e7dcdc;
+    }
+    main li {
+        color: #4344869d;
+        font-weight: bold;
+        text-shadow: 2px 2px 7px #f0f0f0;
+    }
+}

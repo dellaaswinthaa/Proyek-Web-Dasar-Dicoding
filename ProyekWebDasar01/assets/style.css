@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Asap', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ==Header== */
+
+.jumbotron {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #30305f;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 20%;
+    margin-bottom: -25px;
+}
+
+header p {
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 7px #e7e7e7;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #E58FC5;
+    text-shadow: 2px 2px 7px #f0f0f0;
+}
+
+nav a:active {
+    text-shadow: 2px 2px 7px #e7e7e7;
+    color: #373882;
+}
+
+
+/* == Main == */
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%
+}
+
+article p {
+    text-align: justify;
+    line-height: 180%;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #373882;
+}
+
+h3,
+b,
+h2,
+strong {
+    color: #b130a0;
+    text-shadow: 2px 2px 7px #e7dcdc;
+}
+
+.gambar-count {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#EventCs p {
+    font-weight: bold;
+    color: #6d3f67;
+    text-shadow: 2px 2px 7px #e7dcdc;
+    text-align: center;
+}
+
+#EventCs h3 {
+    text-align: center;
+}
+
+main li {
+    color: #9f198d96;
+    font-weight: bold;
+    text-shadow: 2px 2px 7px #f0f0f0;
+}
+
+aside {
+    float: right;
+    width: 22%;
+    padding-left: 20px;
+}
+
+.foto-bio {
+    width: 170px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+.bio header {
+    text-align: center;
+}
+
+.bio td {
+    font-size: small;
+}
+
+
+/* == Footer == */
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #373882;
+    text-align: center;
+    font-weight: bold;
+}
